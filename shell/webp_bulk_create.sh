@@ -1,0 +1,1 @@
+for file in ./*; do cwebp -lossless "$file" -o "${file%.*}.webp"; done
